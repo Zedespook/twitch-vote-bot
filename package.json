@@ -1,0 +1,28 @@
+{
+  "name": "votebot",
+  "version": "1.0.0",
+  "description": "A bot which listens to \"votes\" in Twitch chat, and displays them in the chat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "tmi.js": "^1.8.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/twitch-chatbot"
+  },
+  "keywords": [
+    "twitch",
+    "chatbots",
+    "irc",
+    "automation",
+    "polls"
+  ],
+  "author": "Zedespook",
+  "license": "MIT"
+}
